@@ -71,3 +71,16 @@ https://reactjs.org/docs/forms.html#controlled-components
       - onChange
 
       - defaultValue
+
+      - textarea
+      - select これは親のselectに
+      - fileは少し特殊見たい
+      https://reactjs.org/docs/uncontrolled-components.html#the-file-input-tag
+      - Handling Multiple Inputs
+        this.setState({
+          [name]: value
+        }); こんな書き方をすると、自動で入力してくれるらしい
+      - Controlled Input Null Value
+        nullの扱い
+
+  - Lifting State Up
